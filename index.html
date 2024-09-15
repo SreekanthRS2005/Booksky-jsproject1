@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>code red</title>
+    <!-- connect css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- common font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    <div class="navbar">
+
+
+        <h1>CODE RED</h1>
+
+    </div>
+
+    <div class="container">
+        <div class="book-container">
+
+            <h2>
+                ATTITUDE IS EVERYTHING
+            </h2>
+            <br>
+            <h5>
+                AJ JEFFERY
+            </h5>
+            <br>    
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis rem ipsa quae neque at, adipisci quis, aliquid harum placeat reiciendis nisi sapiente voluptas. Delectus eligendi sequi, alias quis enim labore.
+            </p>
+
+
+            <button onclick="deletebook(event)">DELETE</button>
+        </div>
+
+    </div>
+
+    <div class="popup-overlay">
+
+
+    </div>
+    <!-- the touch box is created -->
+     <div class="popup-box">
+        <h2>Add book</h2>
+        <form action="">
+            <input type="text" placeholder="Book titile" id="book-titile-input">
+            <input type="text" placeholder="Book Authot" id="book-author-input">
+            <textarea name="" id="book-desc-input" placeholder="short-description"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-popup">CANCEL</button>
+        </form>
+
+
+     </div>
+
+
+
+
+
+
+
+    <button class="add-button" id="add-popup">
+        +
+    </button>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
